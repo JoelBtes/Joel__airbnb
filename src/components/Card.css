@@ -1,0 +1,39 @@
+.card {
+    width: 175px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.card__image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card__stats{
+    display: flex;
+    align-items: center;
+}
+
+.card__star {
+    height: 14px;
+}
+.gray {
+    color: #918E9B
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.card__badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
